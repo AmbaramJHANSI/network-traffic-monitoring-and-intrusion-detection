@@ -1,0 +1,15 @@
+Network-Traffic-Monitoring-and-Intrusion-Detection/
+│
+├── network_monitor.py       # Main Python script (packet capture + IDS)
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+└── logs/                    # Folder to store packet logs and alerts
+
+
+** requirements.txt **
+scapy
+pandas
+
+
+You can install all dependencies with:
+pip install -r requirements.txt
